@@ -1,0 +1,45 @@
+prompt Loading PLAYER data without preserving source IDs
+
+insert into player (name, goals) values ('Jean Pierre Papin', 0);
+insert into player (name, goals) values ('Zinedine Zidane', 0);
+insert into player (name, goals) values ('Kylian Mbappe', 0);
+insert into player (name, goals) values ('Lionel Messi', 0);
+insert into player (name, goals) values ('Cristiano Ronaldo', 0);
+insert into player (name, goals) values ('Neymar Jr', 0);
+insert into player (name, goals) values ('Karim Benzema', 0);
+insert into player (name, goals) values ('Luka Modric', 0);
+insert into player (name, goals) values ('Andres Iniesta', 0);
+insert into player (name, goals) values ('Xavi Hernandez', 0);
+insert into player (name, goals) values ('Ronaldinho', 0);
+insert into player (name, goals) values ('Thierry Henry', 0);
+insert into player (name, goals) values ('Didier Drogba', 0);
+insert into player (name, goals) values ('Samuel Etoo', 0);
+insert into player (name, goals) values ('Mohamed Salah', 0);
+insert into player (name, goals) values ('Sadio Mane', 0);
+insert into player (name, goals) values ('Kevin De Bruyne', 0);
+insert into player (name, goals) values ('Erling Haaland', 0);
+insert into player (name, goals) values ('Robert Lewandowski', 0);
+insert into player (name, goals) values ('Sergio Ramos', 0);
+insert into player (name, goals) values ('Virgil van Dijk', 0);
+insert into player (name, goals) values ('Paolo Maldini', 0);
+insert into player (name, goals) values ('Franz Beckenbauer', 0);
+insert into player (name, goals) values ('Zinedine Zidane', 0);
+insert into player (name, goals) values ('Michel Platini', 0);
+insert into player (name, goals) values ('Johan Cruyff', 0);
+insert into player (name, goals) values ('Marco van Basten', 0);
+insert into player (name, goals) values ('Ruud Gullit', 0);
+insert into player (name, goals) values ('George Best', 0);
+insert into player (name, goals) values ('David Beckham', 0);
+insert into player (name, goals) values ('Wayne Rooney', 0);
+insert into player (name, goals) values ('Gianluigi Buffon', 0);
+insert into player (name, goals) values ('Marta', 0);
+insert into player (name, goals) values ('Ada Hegerberg', 0);
+insert into player (name, goals) values ('Aitana Bonmati', 0);
+insert into player (name, goals) values ('Alexia Putellas', 0);
+insert into player (name, goals) values ('Sam Kerr', 0);
+insert into player (name, goals) values ('Wendie Renard', 0);
+insert into player (name, goals) values ('Lucy Bronze', 0);
+insert into player (name, goals) values ('Christine Sinclair', 0);
+insert into player (name, goals) values ('Marie-Antoinette Katoto', 0);
+
+commit;
