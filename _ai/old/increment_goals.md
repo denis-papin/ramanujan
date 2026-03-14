@@ -1,18 +1,18 @@
-# System Player::increment_goals
+# System Player::increment_points
 
 - Ce fichier n'est pas modifiable par l'IA
 
-It takes the id of a Player as an input and increment the number of goals of one unit.
-Every 3 goals, generate a new award by a random issuer and a random year.
+It takes the id of a Player as an input and increment the number of points of one unit.
+Every 3 points, generate a new award by a random issuer and a random year.
 
 - language : PL/SQL
 - entity: relire le fichier entity_player.md
-- read and run the unit tests : read the file tests_increment_goals.md
+- read and run the unit tests : read the file tests_increment_points.md
 - ne modifie pas les TUs lors de l'implémentation du code
 
 ## Rules 
 
-- Issuer must be FIFA or FRANCE_FOOTBALL
+- Issuer must be GOLD or SILVER
 - Year must be between 1980 and 2030
 
 ## Context

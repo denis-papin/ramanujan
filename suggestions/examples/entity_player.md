@@ -8,6 +8,7 @@ components:
   - award
 related_flows:
   - FLOW-PLAYER-INCREMENT-GOALS
+  - FLOW-PLAYER-DECREASE-GOALS
 ---
 
 # Résumé
@@ -34,7 +35,9 @@ related_flows:
 
 # Règles métier
 - Chaque fois qu'un `Player` gagne un but, l'invariant des `Award` doit être restauré.
+- Chaque fois qu'un `Player` perd un but, l'invariant des `Award` doit être restauré.
 - Les `Award` manquants doivent être rattrapés si le total de buts implique plus de récompenses que celles déjà stockées.
+- Les `Award` en trop doivent être supprimés si le total de buts implique moins de récompenses que celles déjà stockées.
 
 # Exemples
 - `goals = 0` implique `awards = 0`

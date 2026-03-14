@@ -21,7 +21,9 @@ Les originaux ne sont pas modifiés.
 - `examples/`
   - `entity_player.md`
   - `flow_player_increment_goals.md`
+  - `flow_player_decrease_goals.md`
   - `integration_tests_player_increment_goals.md`
+  - `integration_tests_player_decrease_goals.md`
   - `bug_0001.md`
 
 ## Principes appliqués

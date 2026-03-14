@@ -24,3 +24,10 @@ Le test exécute uniquement :
 ```sql
 select 1 from dual
 ```
+
+Serveur MCP 
+
+```bash
+cd /home/denis/SQLcl
+./sqlcl/bin/sql -mcp
+```

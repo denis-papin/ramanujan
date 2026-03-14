@@ -1,4 +1,4 @@
-# Tests Player::increment_goals
+# Tests Player::increment_points
 
 - Ce fichier n'est pas modifiable par l'IA
 - le test sera écrit en Rust
